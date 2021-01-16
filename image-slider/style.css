@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.images{
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url(img/bcg-1.jpg)center/cover no-repeat;
+}
+
+.btn{
+    display: inline-block;
+    background: none;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    border-radius: 20%;
+    outline: none;
+}
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+}
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(50%,-50%);
+}
+.btn:active{
+    background: #f9f9f9;
+    box-shadow: 1px 1px grey;
+}
+.btn:hover{
+    background: #f8f8f8;
+    color: black;
+}
